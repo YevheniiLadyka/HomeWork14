@@ -1,0 +1,76 @@
+.about-page {
+    &__img {
+        max-width: 225px;
+        @media (max-width: $mobile) {
+            margin: 48px auto;
+            max-width: 75%;
+        }
+    }
+
+    &__container {
+        display: flex;
+        gap: 290px;
+        margin-top: 130px;
+
+        @media (max-width: $mobile) {
+            flex-direction: column;
+            gap: 0px;
+        }
+    }
+
+    &__title{
+        margin-bottom: 39px;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+
+        @media (max-width: $mobile) {
+            margin-top: -48px;
+        }
+    }
+
+    &__profession {
+        color: $color-gray;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 38px;
+        margin-bottom: 19px;
+        max-width: 430px;
+
+        @media (max-width: $mobile) {
+            max-width: none;
+        }
+    }
+
+    &__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        color: $color-gray;
+        max-width: 540px;
+    }
+
+    &__button {
+        padding: 8px 30px;
+        font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    color: $color-white;
+    margin-top: 90px;
+
+    @media (max-width: $mobile) {
+        margin-bottom: 64px;
+    }
+    
+    }
+
+    
+}
