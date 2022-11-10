@@ -11,6 +11,7 @@
         display: flex;
         gap: 290px;
         margin-top: 130px;
+        margin-bottom: 128px;
 
         @media (max-width: $mobile) {
             flex-direction: column;
@@ -32,7 +33,7 @@
     }
 
     &__profession {
-        color: $color-gray;
+        color: $color-grey;
         font-family: 'Red Hat Display';
         font-style: normal;
         font-weight: 400;
@@ -52,22 +53,17 @@
         font-weight: 400;
         font-size: 19px;
         line-height: 32px;
-        color: $color-gray;
+        color: $color-grey;
         max-width: 540px;
     }
 
     &__button {
-        padding: 8px 30px;
-        font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 166%;
-    color: $color-white;
+       
     margin-top: 90px;
 
     @media (max-width: $mobile) {
         margin-bottom: 64px;
+        width: 53%;
     }
     
     }
