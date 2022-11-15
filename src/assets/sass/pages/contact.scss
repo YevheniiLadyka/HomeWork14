@@ -1,0 +1,138 @@
+.contact-page {
+    &__container-flex1 {
+        display: flex;
+        margin: 130px 0 128px;
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            margin: 74px 0 64px;
+        }
+    }
+
+    &__title {
+        min-width: 263px;
+
+        @media (max-width: $tablet) {
+            min-width: auto;
+        }
+        
+    }
+
+    &__text {
+        color: $color-grey;
+        max-width: 543px;
+        margin-left: 380px;
+
+        @media (max-width: $tablet) {
+            max-width: none;
+            margin: 42px 0 0 0;
+        }
+    }
+
+    &__sub-title {
+        margin-bottom: 24px;
+    }
+
+    &__sub-title:first-child {
+        min-width: 288px;
+
+        @media (max-width: $tablet) {
+            margin-bottom: 40px;
+            min-width: auto;
+        }
+    }
+
+    .contact-page__location, .contact-page__mail, .contact-page__number {
+        color: $color-grey;
+    }
+
+    &__location {
+        max-width: 226px;
+    }
+
+    &__number {
+        display: block;
+        margin: 22px 0 22px 34px;
+        position: relative;
+    }
+
+    &__number::before {
+        content: '';
+        background: url(../img/Tel.png);
+        position: absolute;
+        top: 1px;
+        left: -33px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+
+    &__mail {
+        display: block;
+        margin: 0 0 69px 34px;
+        position: relative;
+
+        @media (max-width: $tablet) {
+            margin: 0 0 51px 34px;
+        }
+    }
+
+    &__mail::before {
+        content: '';
+        background: url(../img/Email.png);
+        position: absolute;
+        top: 7px;
+        left: -33px;
+        min-width: 20px;
+        min-height: 16px;
+    }
+
+    &__container-flex-item {
+        display: flex;
+    }
+
+    &__icon:first-child {
+        max-width: 9px;
+    }
+
+    &__icon:nth-child(2) {
+        max-width: 19px;
+    }
+
+    &__icon:nth-child(3) {
+        max-width: 17px;
+    }
+
+    &__icon:nth-child(4) {
+        max-width: 18px;
+    }
+
+    &__icon-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    &__container-flex2 {
+        display: flex;
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+        }
+    }
+
+    &__container-flex-box4 {
+        width: 100%;
+        margin-left: 355px;
+
+        @media (max-width: $tablet) {
+            margin: 64px 0 0 0;
+        }
+    }
+
+    &__button {
+        margin-bottom: 128px;
+
+        @media (max-width: $tablet) {
+            margin-bottom: 64px;
+        }
+    }
+}

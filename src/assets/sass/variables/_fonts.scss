@@ -11,7 +11,7 @@ $sub-fonts: 'Lato', sans-serif;
     letter-spacing: 0.05em;
     color: $color-black;
 
-    @media (max-width: $mobile) {
+    @media (max-width: $tablet) {
         font-size: 33px;
         line-height: 50px;
     }
@@ -35,6 +35,15 @@ $sub-fonts: 'Lato', sans-serif;
     line-height: 32px;
     letter-spacing: 0.05em;
     color: $color-black;
+}
+
+.h5 {
+    font-family: $sub-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
 }
 
 .h6 {
