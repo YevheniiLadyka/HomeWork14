@@ -74,4 +74,13 @@ $sub-fonts: 'Lato', sans-serif;
     color: $color-white;
     background-color: $color-grey;
 
+    &::after {
+        content: '→';
+        font-size: 20px;
+        padding-left: 8px;
+        
+    }
+      
+
+
 }
