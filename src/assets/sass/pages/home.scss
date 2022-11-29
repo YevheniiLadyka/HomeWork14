@@ -119,6 +119,15 @@
             margin-bottom: 20px;
     
         }
+
+        &__view {
+            cursor: pointer;
+        }
+
+        &__view:hover {
+            scale: 1.2;
+            color: $color-black;
+        }
     
         &__view::after {
             content: '→';

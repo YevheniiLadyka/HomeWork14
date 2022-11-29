@@ -89,6 +89,11 @@ $sub-fonts: 'Lato', sans-serif;
     line-height: 27px;
     color: $color-white;
     background-color: $color-grey;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.2;
+    }
 
     &--arrow::after {
         content: '→';
